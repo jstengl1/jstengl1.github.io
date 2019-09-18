@@ -1,0 +1,32 @@
+body {
+  background-color: #000000;
+  margin: 0
+  padding: 0;
+}
+
+.container {
+  width:768px;
+  height: 1024px;
+  margin:0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large-letter-group {
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #82E6EF
+}
+.large-letter-group h1 {
+  background-color: #0029D3;
+  height: 665px;
+  width: 343px;
+  margin-bottom: 0;
+}
+.large-letter-group button {
+  height: 172px;
+  width: 195px;
+  background-color: #F51010;
+  margin-left: 10px;
+}

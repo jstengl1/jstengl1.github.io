@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1767D5;
+}
+.container {
+  width: 485px;
+  background color:#1767D5
+  margin-left: auto;
+  margin-right: auto;
+}
+.large-letter-group {
+  height: 946px;
+  width:100%;
+  background-color: #000000;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.large-letter-group h1 {
+  height: 449px;
+  width: 349px;
+  background-color: #000000
+}
+.large-letter-group button {
+  width: 343px;
+  height: 877px;
+  background-color: #1767D5
+  margin-right: 10px;
+}
+footer {
+  display: flex;
+}
+
+footer .sources-section{
+  width:200px;
+}
+
+footer img {
+  height:94px;
+}

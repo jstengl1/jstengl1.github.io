@@ -1,0 +1,135 @@
+body {
+  background-color:#F8E825;
+  margin: 0
+  padding: 0;
+}
+
+.container {
+  width:1068px;
+  height: 1024px;
+  margin:0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large-letter-group-relative {
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  top: -10px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+}
+.large-letter-group .item-relative {
+  position: relative;
+  left: 80px;
+  bottom: 15px;
+}
+.large-letter-group h1 {
+  width: 500px;
+  margin-top: -1px;
+  margin-left: 50px;
+  margin-bottom: 0;
+  font-family: 'Bangers', cursive;
+  font-size: 1250px;
+  font-style: normal;
+  color: #ffffff;
+  margin-right: 0px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap:wrap;
+}
+.large-letter-group {
+  padding-left: 20px;
+}
+
+.large-letter-group button {
+  height: 172px;
+  width: 195px;
+  background-color: #F51010;
+  margin-top: 0px;
+}
+
+.text {
+  margin-top: 150px;
+  width:450px;
+  font-size: 125px;
+  font-family: 'Bangers', cursive;
+  color:  #F51010;
+}
+.left-column p {
+  margin-top: 50px;
+  font-family: 'Bangers', cursive;
+  font-style:normal;
+  font-size: 28px;
+  color: #ed143d;
+}
+#left-column {
+  position: relative;
+  left: 500px;
+}
+
+#button {
+  posiitio
+}
+
+#large-letter-group {
+  position: absolute;
+  left: 30px;
+}
+
+#h1 {
+  position: relative;
+  left: 50px;
+}
+
+
+.main-area {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  height:218px;
+  width:1000px;
+  bottom: 0px;
+  margin-top: 100px;
+}
+footer-relative {
+  position: relative;
+  right: 40px;
+  top: 15px;
+}
+footer img {
+  height: 176px;
+  width: 232px;
+  background-color: #F4A2ED;
+  margin-left: 20px;
+}
+footer .square {
+  height: 176px;
+  width: 232px;
+  margin-left: 30px;
+  justify-content: center;
+  font-size: 20px;
+  color: #F51010;
+}
+.square-relative {
+  position: relative;
+  right: 30px;
+}
+.rectangle-relative {
+  position: relative;
+  right: 60px;
+}
+footer .rectangle {
+  height: 176px;
+  width: 232px;
+  margin-left: 20px;
+  font-size: 8px;
+  color: #F51010;
+
+}
