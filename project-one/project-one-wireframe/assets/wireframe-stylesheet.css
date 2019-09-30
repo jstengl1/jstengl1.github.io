@@ -10,6 +10,17 @@ body {
   margin:0 auto;
   margin-left: auto;
   margin-right: auto;
+
+}
+.main-area {
+  display: flex;
+
+}
+.bangers {
+  font-family: 'Bangers', cursive;
+  font-size: 200px;
+  position:relative;
+  right: 150px;
 }
 
 .large-letter-group-relative {
@@ -21,6 +32,12 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
 }
+.title {
+  color: #0000EE;
+  font-family: 'Bangers', cursive;
+  font-size: 275px;
+  text-align: center;
+}
 
 }
 .large-letter-group .item-relative {
@@ -29,52 +46,67 @@ body {
   bottom: 15px;
 }
 .large-letter-group h1 {
-  width: 500px;
+  width: 100px;
   margin-top: -1px;
-  margin-left: 50px;
+  margin-left: 140px;
   margin-bottom: 0;
   font-family: 'Bangers', cursive;
-  font-size: 1250px;
+  font-size: 1400px;
   font-style: normal;
   color: #ffffff;
   margin-right: 0px;
   display: flex;
   align-items: flex-end;
   flex-wrap:wrap;
+  position: relative;
+  right: -15px;
+}
+
 }
 .large-letter-group {
   padding-left: 20px;
 }
 
 .large-letter-group button {
-  height: 172px;
-  width: 195px;
-  background-color: #F51010;
-  margin-top: 0px;
+  height: 25px;
+  width: 480px;
+  background-color: #0000EE;
+  z-index: 100px;
+  position: absolute;
+  left: 200px;
+  top: 115px
 }
+#exclamation-button {
+  position: absolute;
+  top: 200px;
 
+}
 .text {
   margin-top: 150px;
-  width:450px;
-  font-size: 125px;
+  width: 480px;
+  font-size: 150px;
   font-family: 'Bangers', cursive;
   color:  #F51010;
+  position: relative;
+}
+.left-column {
+  width: 550px;
+
 }
 .left-column p {
-  margin-top: 50px;
   font-family: 'Bangers', cursive;
   font-style:normal;
   font-size: 28px;
-  color: #ed143d;
+  color: #F51010;
+  position: relative;
+  top: 10px;
 }
+
 #left-column {
   position: relative;
   left: 500px;
 }
 
-#button {
-  posiitio
-}
 
 #large-letter-group {
   position: absolute;
@@ -84,6 +116,24 @@ body {
 #h1 {
   position: relative;
   left: 50px;
+}
+.letter-container img {
+  position: absolute;
+  z-index: 99l
+  top: 100px;
+  left: 100px;
+}
+
+#letter-analysis {
+  position: relative;
+  z-index: 99;
+  bottom: 1350px;
+  left: 184px;
+  visibility: hidden;
+}
+
+#letter-analysis.visible {
+  visibility: visible;
 }
 
 
@@ -104,18 +154,34 @@ footer-relative {
   top: 15px;
 }
 footer img {
-  height: 176px;
-  width: 232px;
+  height: 335px;
+  width: 500px;
   background-color: #F4A2ED;
-  margin-left: 20px;
+  position: absolute;
+  top: 1865px;
 }
+#footer {
+  position: relative;
+  bottom: 50%;
+}
+
+#button {
+  position:relative;
+  top: -1429px;
+  left: -475px;
+  color: #0000EE;
+}
+
+
 footer .square {
-  height: 176px;
-  width: 232px;
   margin-left: 30px;
   justify-content: center;
-  font-size: 20px;
   color: #F51010;
+  position: relative;
+  bottom: 952px;
+  left: 507px;
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
 }
 .square-relative {
   position: relative;
@@ -125,11 +191,24 @@ footer .square {
   position: relative;
   right: 60px;
 }
+footer .sources {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  color: #F51010;
+  position: relative;
+  left: 540px;
+  bottom: 921px;
+
+}
+
 footer .rectangle {
   height: 176px;
-  width: 232px;
+  width: 215px;
   margin-left: 20px;
-  font-size: 8px;
+  font-size: 12px;
   color: #F51010;
-
+  position: relative;
+  top: -858px;
+  right: -690px;
+  font-family:'Bangers', cursive;
 }
