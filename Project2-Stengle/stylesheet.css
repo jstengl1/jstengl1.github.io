@@ -1,0 +1,27 @@
+.first-title {
+  font-family: "Hoefler Text",;
+  font-size: 35px;
+  position: relative;
+  top: 248px;
+  left: 550px;
+  Background-color: #A03BD5
+}
+
+.PEMDAS {
+  font-size: 250px;
+  font-family: "Hoefler Text" ,;
+  position: relative;
+  left: 200px;
+  top: 262px;
+  background-color: #F73C6E
+}
+
+.symbols {
+  font-size: 250px;
+  font-family: "Hoefler Text",;
+  position: relative;
+  left: 150px;
+  top: 248px;
+  background-color: #F59B09
+
+}

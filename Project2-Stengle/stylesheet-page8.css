@@ -1,0 +1,31 @@
+.letter {
+  position: relative;
+  left: 500px;
+  top: 250px;
+  font-size: 50px;
+  font-family: "Hoefler Text",;
+}
+
+.problem {
+  position: relativez3w;
+  left: 706px;
+  top:262px;
+  font-size: 78px;
+  font-family: "Chalkboard",;
+}
+
+.answer {
+  font-family: "Hoefler Text",;
+  font-size: 35px;
+  position: relative;
+  top: 361px;
+  left: 357px;
+}
+
+.next {
+  font-family: "Hoefler Text",;
+  font-size: 35px;
+  position: relative;
+  top: 400px;
+  left: 929px;
+}
