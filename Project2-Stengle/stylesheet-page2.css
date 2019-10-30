@@ -1,19 +1,20 @@
+
 .letter {
   font-family: "Hoefler Text",;
   font-size: 50px;
   position: relative;
   top: 8px;
   left: 500px;
-  Background-color: #A03BD5
 }
-
+.square {
+  background-color: #0394be
+}
 .title {
   font-size: 80px;
   font-family: "Hoefler Text",;
   position: relative;
   left: 197px;
   top:-18px;
-  background-color: #F73C6E
 }
 
 .symbols {
@@ -22,7 +23,6 @@
   position: relative;
   left: 197px;
   top:20px;
-  background-color: #F42222;
 }
 
 .explanation {
@@ -31,14 +31,12 @@
   position: relative;
   left: 188px;
   top: 109px;
-  background-color: #F59B09
 
 }
 .example {
   font-size: 50px;
   font-family: "Hoefler Text",;
   position: relative;
-  background-color: #E01313;
   top: 195px;
   left: 186px;
 }
@@ -49,5 +47,4 @@
   position: relative;
   left: 1239px;
   top: 307px;
-  background-color: #5EC0CC;
 }

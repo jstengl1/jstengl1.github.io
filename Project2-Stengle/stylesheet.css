@@ -2,26 +2,46 @@
   font-family: "Hoefler Text",;
   font-size: 35px;
   position: relative;
-  top: 248px;
-  left: 550px;
-  Background-color: #A03BD5
+  top: 70px;
+  left: 575px;
 }
 
 .PEMDAS {
-  font-size: 250px;
+  font-size: 100px;
   font-family: "Hoefler Text" ,;
+  color: #000000;
   position: relative;
-  left: 200px;
-  top: 262px;
-  background-color: #F73C6E
+  left: 492px;
+  top: 66px;
 }
 
 .symbols {
-  font-size: 250px;
+  font-size: 100px;
   font-family: "Hoefler Text",;
   position: relative;
-  left: 150px;
-  top: 248px;
-  background-color: #F59B09
+  left: 481px;
+  top: 48px;
+  z-index: 99px;
 
+}
+
+.next {
+  position: relative;
+  top: 50px;
+  left: -190px;
+  width: 1000px;
+  height: 1500px;
+}
+
+img {
+  position: relative;
+  height: 1500px;
+  width: 1000px;
+  top: 20px;
+  right: -190px;
+}
+
+button {
+  left: 1239px;
+  top: 10px;
 }
