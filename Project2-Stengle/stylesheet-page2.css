@@ -7,7 +7,7 @@
   left: 500px;
 }
 .square {
-  background-color: #0394be
+  background-color:
 }
 .title {
   font-size: 80px;
@@ -15,30 +15,62 @@
   position: relative;
   left: 197px;
   top:-18px;
+  color: #0394be;
 }
+.solution {
+  border-style: solid;
+  border-color: #ff0000;
+  height: 234px;
+  width: 466px;
+  position: relative;
+  padding-left: 10px;
 
+}
 .symbols {
+  font-size: 180px;
+  font-family: "Hoefler Text",;
+  position: relative;
+  left: 265px;
+  top:-391px;
+}
+.paranthesis1 {
   font-size: 180px;
   font-family: "Hoefler Text",;
   position: relative;
   left: 197px;
   top:20px;
+  color: #0394be;
 }
-
+.paranthesis2 {
+  font-size: 180px;
+  font-family: "Hoefler Text",;
+  position: relative;
+  left: 900px;
+  top: -187px;
+  color: #0394be;
+}
 .explanation {
   font-size: 50px;
   font-family: "Hoefler Text",;
   position: relative;
   left: 188px;
-  top: 109px;
+  top: -275px;
+  border-radius: 4px;
+  background-color: #0394be;
+  width: 615px;
+  height: 71px;
+  color: #ffffff;
+  align-content: center;
 
 }
 .example {
   font-size: 50px;
   font-family: "Hoefler Text",;
   position: relative;
-  top: 195px;
+  top: -191px;
   left: 186px;
+  color: #ff0000;
+
 }
 
 .next {
@@ -47,4 +79,26 @@
   position: relative;
   left: 1239px;
   top: 307px;
+}
+
+.step1 {
+  font-size: 60px;
+  position: relative;
+  left: 191px;
+  top: -134px;
+}
+
+.step2 {
+  font-size: 60px;
+  position: relative;
+  left: 191px;
+  top: -124px;
+}
+
+
+.answer {
+  font-size: 60px;
+  position: relative;
+  left: 191px;
+  top: -114px;
 }

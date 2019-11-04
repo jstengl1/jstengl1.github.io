@@ -4,7 +4,6 @@
   position: relative;
   top: 8px;
   left: 500px;
-  Background-color: #A03BD5
 }
 
 .title {
@@ -13,7 +12,7 @@
   position: relative;
   left: 197px;
   top:-18px;
-  background-color: #F73C6E
+  color: #0394be;
 }
 
 .symbols {
@@ -22,32 +21,77 @@
   position: relative;
   left: 197px;
   top:20px;
-  background-color: #F42222;
 }
+
+.left {
+  font-size: 180px;
+  font-family: "Hoefler Text",;
+  position: relative;
+  left: 197px;
+  top:20px;
+}
+.symbols {
+  font-size: 180px;
+  font-family: "Hoefler Text",;
+  position: relative;
+  left: 580px;
+  top:-191px;
+}
+.x {
+  font-size: 180px;
+  font-family: "Hoefler Text",;
+  position: relative;
+  left: 439px;
+  top:-404px;
+  color: #0394be;
+}
+
+
+
 
 .explanation {
   font-size: 50px;
   font-family: "Hoefler Text",;
   position: relative;
   left: 188px;
-  top: 109px;
-  background-color: #F59B09
+  top: -354px;
 
 }
 .example {
   font-size: 50px;
   font-family: "Hoefler Text",;
   position: relative;
-  background-color: #E01313;
-  top: 195px;
+  top: -267px;
   left: 186px;
+  color: #ff0000;
+
+}
+.step1 {
+  font-size: 60px;
+  position: relative;
+  left: 191px;
+  top: -202px;
+}
+
+.step2 {
+  font-size: 60px;
+  position: relative;
+  left: 191px;
+  top: -182px;
+}
+
+
+.step3 {
+  font-size: 60px;
+  position: relative;
+  left: 191px;
+  top: -160px;
 }
 
 .next {
   font-size: 40px;
   font-family: "Hoefler Text",;
   position: relative;
-  left: 1239px;
-  top: 307px;
-  background-color: #5EC0CC;
+  left: 959px;
+  top: 5px;
 }

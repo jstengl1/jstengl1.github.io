@@ -4,7 +4,6 @@
   position: relative;
   top: 8px;
   left: 500px;
-  Background-color: #A03BD5
 }
 
 .title {
@@ -13,7 +12,7 @@
   position: relative;
   left: 197px;
   top:-18px;
-  background-color: #F73C6E
+  color: #0394be;
 }
 
 .symbols {
@@ -22,7 +21,6 @@
   position: relative;
   left: 197px;
   top:20px;
-  background-color: #F42222;
 }
 
 .explanation {
@@ -30,24 +28,70 @@
   font-family: "Hoefler Text",;
   position: relative;
   left: 188px;
-  top: 109px;
-  background-color: #F59B09
+  top: -336px;
 
 }
 .example {
   font-size: 50px;
   font-family: "Hoefler Text",;
   position: relative;
-  background-color: #E01313;
-  top: 195px;
+  top: -264px;
   left: 186px;
+  color: #ff0000;
+
+}
+.add {
+  font-size: 180px;
+  font-family: "Hoefler Text",;
+  position: relative;
+  left: 640px;
+  top:-192px;
+  color: #0394be;
+}
+.right {
+  font-size: 180px;
+  font-family: "Hoefler Text",;
+  position: relative;
+  left: 845px;
+  top:-398px;
 }
 
+
+.step1 {
+  font-size: 60px;
+  position: relative;
+  left: 191px;
+  top: -202px;
+}
+
+.step2 {
+  font-size: 60px;
+  position: relative;
+  left: 191px;
+  top: -182px;
+}
+
+
+.step3 {
+  font-size: 60px;
+  position: relative;
+  left: 191px;
+  top: -160px;
+}
 .next {
   font-size: 40px;
   font-family: "Hoefler Text",;
   position: relative;
-  left: 1239px;
-  top: 807px;
-  background-color: #5EC0CC;
+  left: 1086px;
+  top: 47px;
+}
+
+.quizName {
+  font-family: "Times New Roman", Times, serif;"
+}
+
+
+
+.slickQuiz {
+  left: 100px;
 }

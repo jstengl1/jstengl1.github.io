@@ -25,6 +25,8 @@ h1 {
   font-size: 26px;
   margin: 0 0 20px;
   color: #0C4569;
+  font-family: "Times New Roman", Times, serif;",;
+
 }
 
 h2 {
@@ -35,6 +37,7 @@ h2 {
 h3 {
   font-size: 18px;
   margin: 15px 0 10px;
+  font-family: "Times New Roman", Times, serif;",;
 }
 
 h4 {

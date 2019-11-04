@@ -3,24 +3,26 @@
   font-size: 35px;
   position: relative;
   top: 70px;
-  left: 575px;
+  left: 882px;
+  color: #0394be
 }
 
 .PEMDAS {
   font-size: 100px;
-  font-family: "Hoefler Text" ,;
-  color: #000000;
+  font-family: "Hoefler Text",;
+  color: #0394be;
   position: relative;
-  left: 492px;
-  top: 66px;
+  left: 798px;
+  top: 57px;
 }
 
 .symbols {
   font-size: 100px;
   font-family: "Hoefler Text",;
   position: relative;
-  left: 481px;
-  top: 48px;
+  left: 780px;
+  top: 23px;
+  color: #0394be;
   z-index: 99px;
 
 }
@@ -33,15 +35,99 @@
   height: 1500px;
 }
 
+.mnemonic {
+  position: relative;
+  left: 1070px;
+  top: -1500px;
+  color: #0394be;
+  font-size: 20px;
+  font-family: "Hoefler Text",bold;
+
+}
+
+.arantheses {
+  position: relative;
+  left: 1117px;
+  top: -1899px;
+  color: #0394be;
+  font-size: 15px;
+  font-family: "Hoefler Text",;
+
+}
+
+.xponents {
+  position: relative;
+  left: 1118px;
+  top: -1888px;
+  color: #0394be;
+  font-size: 15px;
+  font-family: "Hoefler Text",;
+
+}
+
+.ultiplication {
+  position: relative;
+  left: 1119px;
+  top: -1878px;
+  color: #0394be;
+  font-size: 15px;
+  font-family: "Hoefler Text",;
+}
+
+.ivision {
+  position: relative;
+  left: 1119px;
+  top: -1867px;
+  color: #0394be;
+  font-size: 15px;
+  font-family: "Hoefler Text",;
+}
+
+.ddition {
+  position: relative;
+  left: 1115px;
+  top: -1857px;
+  color: #0394be;
+  font-size: 15px;
+  font-family: "Hoefler Text",;
+}
+
+.ubtraction {
+  position: relative;
+  left: 1115px;
+  top: -1847px;
+  color: #0394be;
+  font-size: 15px;
+  font-family: "Hoefler Text",;
+}
+
+.explanation {
+  font-family: "Hoefler Text",;
+  font-size: 25px;
+  height: 900px;
+  width: 550px;
+  right: -1072px;
+  position: relative;
+  top: -804px;
+  color: #0394be;
+
+}
+
 img {
   position: relative;
-  height: 1500px;
-  width: 1000px;
-  top: 20px;
+  height: 947px;
+  width: 811px;
+  top: 45px;
   right: -190px;
 }
 
 button {
-  left: 1239px;
-  top: 10px;
+  left: 1623px;
+  top: -1670px;
+  background-color: #0394be;
+  height: 50px;
+  width: 60px;
+  font-family: "Hoefler Text",;
+  color: #000000;
+  position: relative;
 }
