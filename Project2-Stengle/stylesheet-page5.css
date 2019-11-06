@@ -1,5 +1,5 @@
 .letter {
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   font-size: 50px;
   position: relative;
   top: 8px;
@@ -8,7 +8,7 @@
 
 .title {
   font-size: 80px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 197px;
   top:-18px;
@@ -17,14 +17,14 @@
 
 .right {
   font-size: 180px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 683px;
   top: -473px;
 }
 .symbols {
   font-size: 180px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 202px;
   top:-53px;
@@ -33,7 +33,7 @@
 
 .divider {
   font-size: 180px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 576px;
   top:-254px;
@@ -41,7 +41,7 @@
 }
 .explanation {
   font-size: 50px;
-  font-family: "Hoefler Text",;
+  font-family:'Marker Felt' , sans-serif;
   position: relative;
   left: 188px;
   top: 283px;
@@ -49,7 +49,7 @@
 }
 .example {
   font-size: 50px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   top: -260px;
   left: 186px;
@@ -61,6 +61,9 @@
   position: relative;
   left: 191px;
   top: -202px;
+  font-family: 'Marker Felt' , sans-serif;
+  text-decoration: underline red;
+
 }
 
 .step2 {
@@ -68,6 +71,9 @@
   position: relative;
   left: 191px;
   top: -182px;
+  font-family: 'Marker Felt' , sans-serif;
+  text-decoration: underline red;
+
 }
 
 
@@ -76,12 +82,19 @@
   position: relative;
   left: 191px;
   top: -160px;
+  font-family: 'Marker Felt' , sans-serif;
+  text-decoration: underline red;
+
 }
 
-.next {
-  font-size: 40px;
+button {
+  left: 1039px;
+  top: 18px;
+  background-color: #0394be;
+  height: 72px;
+  width: 132px;
   font-family: "Hoefler Text",;
+  color: #ffffff;
+  font-size: 35px;
   position: relative;
-  left: 959px;
-  top: 5px;
 }

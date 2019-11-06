@@ -1,28 +1,31 @@
 .first-title {
-  font-family: "Hoefler Text",;
-  font-size: 35px;
+  font-family: 'Marker Felt' , sans-serif;
+  font-size: 63px;
   position: relative;
-  top: 70px;
-  left: 882px;
-  color: #0394be
+  top: 192px;
+  left: 874px;
+  color: #ffffff
 }
-
+.container {
+  background-color: #0394be;
+  height: 800px;
+}
 .PEMDAS {
-  font-size: 100px;
-  font-family: "Hoefler Text",;
-  color: #0394be;
+  font-size: 195px;
+  font-family: 'Marker Felt' , sans-serif;
+  color: #ffffff;
   position: relative;
-  left: 798px;
-  top: 57px;
+  left: 759px;
+  top: 225px;
 }
 
 .symbols {
-  font-size: 100px;
-  font-family: "Hoefler Text",;
+  font-size: 221px;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
-  left: 780px;
-  top: 23px;
-  color: #0394be;
+  left: 649px;
+  top: 250px;
+  color: #ffffff;
   z-index: 99px;
 
 }
@@ -38,96 +41,100 @@
 .mnemonic {
   position: relative;
   left: 1070px;
-  top: -1500px;
+  top: -1203px;
   color: #0394be;
   font-size: 20px;
-  font-family: "Hoefler Text",bold;
+  font-family: 'Marker Felt' , sans-serif;
 
 }
 
 .arantheses {
   position: relative;
   left: 1117px;
-  top: -1899px;
+  top: -1623px;
   color: #0394be;
   font-size: 15px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
 
 }
 
 .xponents {
   position: relative;
   left: 1118px;
-  top: -1888px;
+  top: -1610px;
   color: #0394be;
   font-size: 15px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
 
 }
 
 .ultiplication {
   position: relative;
   left: 1119px;
-  top: -1878px;
+  top: -1589px;
   color: #0394be;
   font-size: 15px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
 }
 
 .ivision {
   position: relative;
   left: 1119px;
-  top: -1867px;
+  top: -1566px;
   color: #0394be;
   font-size: 15px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
 }
 
 .ddition {
   position: relative;
   left: 1115px;
-  top: -1857px;
+  top: -1552px;
   color: #0394be;
   font-size: 15px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
 }
 
 .ubtraction {
   position: relative;
   left: 1115px;
-  top: -1847px;
+  top: -1532px;
   color: #0394be;
   font-size: 15px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
 }
 
 .explanation {
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   font-size: 25px;
   height: 900px;
   width: 550px;
   right: -1072px;
   position: relative;
-  top: -804px;
+  top: -629px;
   color: #0394be;
 
 }
 
 img {
   position: relative;
+  font-family: "Hoefler Text" ,;
+  color: #000000;
+  font-size: 15px;
   height: 947px;
   width: 811px;
-  top: 45px;
+  top: 204px;
   right: -190px;
 }
 
 button {
   left: 1623px;
-  top: -1670px;
+  top: -1399px;
   background-color: #0394be;
-  height: 50px;
-  width: 60px;
-  font-family: "Hoefler Text",;
-  color: #000000;
+  height: 72px;
+  width: 132px;
+  font-family: 'Marker Felt' , sans-serif;
+  color: #ffffff;
+  font-size: 35px;
   position: relative;
 }

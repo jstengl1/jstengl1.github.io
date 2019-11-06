@@ -1,41 +1,37 @@
 
 .letter {
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   font-size: 50px;
   position: relative;
   top: 8px;
   left: 500px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
 }
 .square {
   background-color:
 }
 .title {
   font-size: 80px;
-  font-family: "Hoefler Text",;
+  font-family:'Marker Felt' , sans-serif;
   position: relative;
   left: 197px;
   top:-18px;
   color: #0394be;
 }
-.solution {
-  border-style: solid;
-  border-color: #ff0000;
-  height: 234px;
-  width: 466px;
-  position: relative;
-  padding-left: 10px;
 
-}
 .symbols {
   font-size: 180px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 265px;
   top:-391px;
 }
 .paranthesis1 {
   font-size: 180px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 197px;
   top:20px;
@@ -43,7 +39,7 @@
 }
 .paranthesis2 {
   font-size: 180px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 900px;
   top: -187px;
@@ -51,7 +47,7 @@
 }
 .explanation {
   font-size: 50px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 188px;
   top: -275px;
@@ -65,7 +61,7 @@
 }
 .example {
   font-size: 50px;
-  font-family: "Hoefler Text",;
+  font-family: 'Marker Felt' , sans-serif;
   position: relative;
   top: -191px;
   left: 186px;
@@ -73,12 +69,16 @@
 
 }
 
-.next {
-  font-size: 40px;
-  font-family: "Hoefler Text",;
+button {
+  left: 1039px;
+  top: 18px;
+  background-color: #0394be;
+  height: 72px;
+  width: 132px;
+  font-family: 'Marker Felt' , sans-serif;
+  color: #ffffff;
+  font-size: 35px;
   position: relative;
-  left: 1239px;
-  top: 307px;
 }
 
 .step1 {
@@ -86,6 +86,10 @@
   position: relative;
   left: 191px;
   top: -134px;
+  font-family:'Marker Felt' , sans-serif;
+  text-decoration: underline red;
+
+
 }
 
 .step2 {
@@ -93,6 +97,9 @@
   position: relative;
   left: 191px;
   top: -124px;
+  font-family: 'Marker Felt' , sans-serif;
+  text-decoration: underline red;
+
 }
 
 
@@ -101,4 +108,7 @@
   position: relative;
   left: 191px;
   top: -114px;
+  font-family: 'Marker Felt' , sans-serif;
+  text-decoration: underline red;
+
 }

@@ -6,7 +6,7 @@ var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge!",
         "main":    "<p>Think you're smart enough to make Aunt Sally proud? Find out with this order of operations quiz!</p>",
-        "results": "<h5>Learn More</h5><p> Go to the Order of Operations Site.</p>" ,
+        "results": "<h5>Learn More</h5><p> </p>" ,
         "level1":  "Math Wizard",
         "level2":  "Smarty Pants",
         "level3":  "Math Amateur",
@@ -22,7 +22,7 @@ var quizJSON = {
                 {"option": "63",      "correct": true},
                 {"option": "74",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>That's right!</span> 63 is the solution, if the order of operations were followed correctly!</p>",
+            "correct": "<p><span>That's right!</span> 63 is the solution,  the order of operations were followed !</p>",
             "incorrect": "<p><span>Uhh no.</span> It's 63. Did you actually <em>go</em> learn PEMDAS?</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
@@ -57,7 +57,7 @@ var quizJSON = {
                 {"option": "48",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Holy bananas!</span> I thought this one would be confusing, good job! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. Carefully go through the order and check your math again.</p>" // no comma here
+            "incorrect": "<p><span>Fail.</span> Sorry. You lose. </p>" // no comma here
         },
         { // Question 5
             "q": "This one is tricky! Round to the nearest tenth, (196/4^3-1)*(6^2/4)-2",
@@ -71,7 +71,7 @@ var quizJSON = {
             "incorrect": "<p><span>ERRRR!</span> Did you read this site at all?</p>" // no comma here
         },
 
-        { // Question 5
+        { // Question 6
             "q": "The final and hardest problem. Good luck! ((5003-3)+(20/2)^2*7^2)",
             "a": [
                 {"option": "100",    "correct": true},
@@ -81,7 +81,7 @@ var quizJSON = {
 
 
             ],
-            "correct": "<p><span>Good Job!</span> WOW! Congrats, you have mastered the order of operations</p>",
+            "correct": "<p><span>Good Job!</span> WOW! Congrats, you got it!</p>",
             "incorrect": "<p><span>ERRRR!</span> OK, I'll give you a break. This one was tough, keep praticing!</p>" // no comma here
         } // no comma here
     ]
