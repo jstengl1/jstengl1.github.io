@@ -2,16 +2,25 @@
   font-family: 'Marker Felt' , sans-serif;
   font-size: 50px;
   position: relative;
-  top: 8px;
+  top: 100px;
   left: 500px;
+}
+
+h1 {
+  font-size: 78px;
+  margin: 0 0 20px;
+  color: #0C4569;
+  top: -58px;
+  left: -220px;
+  position: relative;
 }
 
 .title {
   font-size: 80px;
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
-  left: 197px;
-  top:-18px;
+  left: 50px;
+  top: 87px;
   color: #0394be;
 }
 
@@ -19,24 +28,24 @@
   font-size: 180px;
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
-  left: 197px;
-  top:20px;
+  left: 25px;
+  top: 214px;
 }
 
 .explanation {
   font-size: 50px;
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
-  left: 188px;
-  top: -336px;
+  left: 18px;
+  top: 252px;
 
 }
 .example {
   font-size: 50px;
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
-  top: -264px;
-  left: 186px;
+  top:  317px;
+  left: 30px;
   color: #ff0000;
 
 }
@@ -44,24 +53,24 @@
   font-size: 180px;
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
-  left: 640px;
-  top:-192px;
+  left: 479px;
+  top: 192px;
   color: #0394be;
 }
 .right {
   font-size: 180px;
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
-  left: 845px;
-  top:-398px;
+  left: 694px;
+  top: 167px;
 }
 
 
 .step1 {
   font-size: 60px;
   position: relative;
-  left: 191px;
-  top: -202px;
+  left: 40px;
+  top: 344px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
 }
@@ -69,8 +78,8 @@
 .step2 {
   font-size: 60px;
   position: relative;
-  left: 191px;
-  top: -182px;
+  left: 40px;
+  top: 393px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
 }
@@ -79,15 +88,15 @@
 .step3 {
   font-size: 60px;
   position: relative;
-  left: 191px;
-  top: -160px;
+  left: 40px;
+  top: 427px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
 }
 
 button {
-  left: 1039px;
-  top: 18px;
+  left: 650px;
+  top: 447px;
   background-color: #0394be;
   height: 72px;
   width: 132px;
@@ -105,4 +114,5 @@ button {
 
 .slickQuiz {
   left: 100px;
+  top: 100px;
 }
