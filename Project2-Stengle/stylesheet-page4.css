@@ -4,6 +4,8 @@
   position: relative;
   top: 8px;
   left: 500px;
+  background-color: aliceblue;
+
 }
 
 .title {
@@ -13,6 +15,8 @@
   left: 197px;
   top:-18px;
   color: #0394be;
+  background-color: #ed143d;
+
 }
 
 .symbols {
@@ -21,6 +25,8 @@
   position: relative;
   left: 197px;
   top:20px;
+  background-color: #6495ed;
+
 }
 
 .left {
@@ -29,6 +35,8 @@
   position: relative;
   left: 197px;
   top:20px;
+  background-color: #6495ed;
+
 }
 .symbols {
   font-size: 180px;
@@ -36,6 +44,8 @@
   position: relative;
   left: 580px;
   top:-191px;
+  background-color: #6495ed;
+
 }
 .x {
   font-size: 180px;
@@ -44,6 +54,8 @@
   left: 439px;
   top:-404px;
   color: #0394be;
+  background-color: #6495ed;
+
 }
 
 
@@ -55,6 +67,7 @@
   position: relative;
   left: 188px;
   top: -354px;
+  background-color: #0394be;
 
 }
 .example {
@@ -64,6 +77,8 @@
   top: -267px;
   left: 186px;
   color: #ff0000;
+  background-color: #deb887;
+
 
 }
 .step1 {
@@ -73,6 +88,8 @@
   top: -202px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
+
 
 }
 
@@ -83,6 +100,7 @@
   top: -182px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
 
 }
 
@@ -94,6 +112,7 @@
   top: -160px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
 
 }
 

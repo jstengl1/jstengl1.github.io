@@ -4,6 +4,8 @@
   position: relative;
   top: 100px;
   left: 500px;
+  background-color: aliceblue;
+
 }
 
 h1 {
@@ -22,6 +24,8 @@ h1 {
   left: 50px;
   top: 87px;
   color: #0394be;
+  background-color: #ed143d;
+
 }
 
 .symbols {
@@ -30,6 +34,8 @@ h1 {
   position: relative;
   left: 25px;
   top: 214px;
+  background-color: #6495ed;
+
 }
 
 .explanation {
@@ -37,16 +43,20 @@ h1 {
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 18px;
-  top: 252px;
+  top: -57px;
+  background-color: #0394be;
+
 
 }
 .example {
   font-size: 50px;
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
-  top:  317px;
+  top:  24px;
   left: 30px;
   color: #ff0000;
+  background-color: #deb887;
+
 
 }
 .add {
@@ -54,7 +64,7 @@ h1 {
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 479px;
-  top: 192px;
+  top: 44px;
   color: #0394be;
 }
 .right {
@@ -62,7 +72,7 @@ h1 {
   font-family: 'Marker Felt' , sans-serif;
   position: relative;
   left: 694px;
-  top: 167px;
+  top: -156px;
 }
 
 
@@ -70,18 +80,22 @@ h1 {
   font-size: 60px;
   position: relative;
   left: 40px;
-  top: 344px;
+  top: 44px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
+
 }
 
 .step2 {
   font-size: 60px;
   position: relative;
   left: 40px;
-  top: 393px;
+  top: 54px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
+
 }
 
 
@@ -89,9 +103,11 @@ h1 {
   font-size: 60px;
   position: relative;
   left: 40px;
-  top: 427px;
+  top: 67px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
+
 }
 
 button {
@@ -106,9 +122,6 @@ button {
   position: relative;
 }
 
-.quizName {
-  font-family: "Times New Roman", Times, serif;"
-}
 
 
 

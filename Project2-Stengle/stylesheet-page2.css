@@ -5,6 +5,7 @@
   position: relative;
   top: 8px;
   left: 500px;
+  background-color: aliceblue;
 }
 .container {
   margin-left: auto;
@@ -20,6 +21,7 @@
   left: 197px;
   top:-18px;
   color: #0394be;
+  background-color: #ed143d;
 }
 
 .symbols {
@@ -28,7 +30,9 @@
   position: relative;
   left: 265px;
   top:-391px;
+  background-color: #6495ed;
 }
+
 .paranthesis1 {
   font-size: 180px;
   font-family: 'Marker Felt' , sans-serif;
@@ -66,6 +70,7 @@
   top: -191px;
   left: 186px;
   color: #ff0000;
+  background-color: #deb887;
 
 }
 
@@ -88,7 +93,7 @@ button {
   top: -134px;
   font-family:'Marker Felt' , sans-serif;
   text-decoration: underline red;
-
+  background-color: pink;
 
 }
 
@@ -99,6 +104,7 @@ button {
   top: -124px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
 
 }
 
@@ -110,5 +116,6 @@ button {
   top: -114px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
 
 }

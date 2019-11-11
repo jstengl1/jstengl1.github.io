@@ -4,6 +4,8 @@
   position: relative;
   top: 8px;
   left: 500px;
+  background-color: aliceblue;
+
 }
 
 .title {
@@ -13,15 +15,16 @@
   left: 197px;
   top:-18px;
   color: #0394be;
-.container {
-}
-}
+  background-color: #ed143d;}
+
 .left {
   font-size: 180px;
   font-family:'Marker Felt' , sans-serif;
   position: relative;
   left: 197px;
   top:20px;
+  background-color: #6495ed;
+
 }
 .symbols {
   font-size: 180px;
@@ -29,6 +32,8 @@
   position: relative;
   left: 480px;
   top:-191px;
+  background-color: #6495ed;
+
 }
 .asterisk {
   font-size: 180px;
@@ -37,6 +42,8 @@
   left: 314px;
   top:-404px;
   color: #0394be;
+  background-color: #6495ed;
+
 }
 
 .explanation {
@@ -45,6 +52,8 @@
   position: relative;
   left: 188px;
   top: -319px;
+  background-color: #0394be;
+
 
 }
 .example {
@@ -54,6 +63,8 @@
   top: -231px;
   left: 186px;
   color: #ff0000;
+  background-color: #deb887;
+
 }
 .step1 {
   font-size: 60px;
@@ -62,6 +73,8 @@
   top: -202px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
+
 
 }
 
@@ -72,6 +85,8 @@
   top: -182px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
+
 }
 
 
@@ -82,6 +97,8 @@
   top: -160px;
   font-family: 'Marker Felt' , sans-serif;
   text-decoration: underline red;
+  background-color: pink;
+
 }
 
 button {
