@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata for the Webpage -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parantheses</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><!-- Google Open Sans web font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet"><!-- Font Awesome Web Icons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Flippable Flashcards</title>
+  <link rel="stylesheet" href="flashcard_flip/assets/styles.css">
+  <link rel="stylesheet" href="flashcard_flip/assets/animate.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span
+            class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#">Parentheses</a></div> <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="parentheses.html">Parentheses</a></li>
+              <li><a href="exponents.html">Exponents</a></li>
+              <li><a href="multiplication.html">Multiplication</a></li>
+              <li><a href="division.html">Division</a></li>
+              <li><a href="addition.html">Addition</a></li>
+              <li><a href="subtraction.html">Subtraction</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <ol class="breadcrumb">
+      <li><a href="index.html">Home</a></li>
+      <li class="active">Parentheses</li>
+    </ol>
+    <h1>Parentheses</h1>
+    <p>Parentheses is the first step of the order of operations. Complete all mathematical expressions within the parentheses before continuing to solve the expression! Inside the parentheses, however the order of operations must be followed. So, whatever is in the parentheses comes first!</p>
+
+          <div class="Example">
+            Example!
+          </div>
+          <div class="step1">
+            6 X (5+3)
+          </div>
+          <div class="step2">
+            6 X 8
+          </div>
+          <div class="answer">
+            =48
+            <header>
+              <h3>Use these flashcards to practice your parentheses skills! Click on each card to reveal the answer to the problem.</h3>
+            </header>
+
+            <!-- The div.scene houses the 3D space where the 3D object (div.card) lives. Keeping the 3D space element and the object separate element establishes a paradigm that is simple to understand and easier to style. -->
+            <section class="container">
+              <section class="scene large-card">
+                <!-- The div.card is the 3D object or the thing that will turn-->
+                <div id="problem1" class="card">
+                  <!-- The card_face elements are used for the faces of the card. -->
+                  <div class="card_face card_face-front">
+                    <p>(5+3)-1=?</p>
+                  </div>
+                  <div class="card_face card_face-back">
+                    <p>7</p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="scene large-card">
+                <div id="problem2" class="card">
+                  <!-- The front of the card is where the question goes -->
+                  <div class="card_face card_face-front">
+                    <p>(12/3)+2=?</p>
+                  </div>
+                  <!-- the back of the card is where the answer goes -->
+                  <div class="card_face card_face-back">
+                    <p>6</p></div>
+                </div>
+              </section>
+
+              <section class="scene large-card">
+                <div id="problem3" class="card">
+                  <div class="card_face card_face-front">
+                    <p>8(10-2)=?</p>
+                  </div>
+                  <div class="card_face card_face-back">
+                    <p>64</p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="scene large-card">
+                <div id="problem4" class="card">
+                  <div class="card_face card_face-front">
+                    <p>3[4–2(6 – 3)]=?</p>
+                  </div>
+                  <div class="card_face card_face-back">
+                    <p>18</p>
+                  </div>
+                </div>
+              </section>
+            </section>
+
+            <!-- The jQuery script that actually controls the interaction -->
+            <script src="flashcard_flip/assets/animate-on-click.js" charset="utf-8"></script>
+  </div>
+  <!-- Container -->
+  <footer class="footer">
+    <div class="container">
+      <hr>
+    </div>
+  </footer><!-- jQuery Javascript Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!-- Bootstrap Library -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+
+</html>

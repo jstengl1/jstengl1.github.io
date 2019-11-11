@@ -1,0 +1,209 @@
+.jumbotron {
+  margin-top: -40px;
+  background-color: aliceblue;
+  color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+.flashcard {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.step1, .step2 {
+  font-family: "Marker Felt", sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: #0394be;
+}
+
+.answer{
+  font-family: "Marker Felt", sans-serif;
+  font-size: 25px;
+  color: #0394be;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #0394be;
+    background-color: #fff;
+    white-space: nowrap;
+  }
+  .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #ffdd55;
+  }
+
+  div.jumbotron img {
+    height: 50px;
+    position: relative;
+    top: 165px;
+    left: 130px;
+  }
+
+.meet {
+  font-family: "Marker Felt", sans-serif;
+  position: relative;
+  left: 470px;
+}
+img {
+  height: 300px;
+  position: relative;
+  left: 340px;
+  }
+  .navbar-inverse {
+    background-color: #0394be;
+    border-color: #0394be;
+  }
+.Example {
+  color: #ff0000;
+  font-family: "Marker Felt", sans-serif;
+  font-size: 35px;
+}
+.flashcard h3 {
+  font-weight: normal;
+  font-family: serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 100px;
+
+}
+.jumbotron p{
+  font-family: "Marker Felt", sans-serif;
+  font-size: 30px;
+}
+.panel-body {
+  font-family: "Marker Felt", sans-serif;
+  color: #0394be;
+}
+
+h2.text-center.fa-3x {
+  font-family: "Marker Felt", sans-serif;
+  color: #0394be;
+}
+
+.fa-calculator:before {
+  color: #0394be;
+}
+
+.homepage .panel-heading {
+  padding: 5rem;
+  font-size: 20px;
+  background-color: #ffdd55;
+  border-color: #0394be;
+}
+
+#test-section {
+  background-color: aliceblue;
+}
+
+.panel-title {
+  font-size: 25px;
+  font-family: "Marker Felt", sans-serif;
+  color: aliceblue;
+}
+
+.container-fluid {
+  background-color:  #0394be;
+}
+i.fa.fa-fw.fa-graduation-cap::before {
+  color: #0394be;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+  color: #fff;
+  font-family: "Marker Felt", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Marker Felt", sans-serif;
+  color: #0394be;
+}
+.active p {
+  font-size: 25px;
+}
+.breadcrumb>.active {
+  color: #ffdd55;
+  font-family: "Marker Felt", sans-serif;
+  font-size: 20px;
+}
+
+ol.breadcrumb {
+  background-color: #0394be;
+}
+
+a {
+  color: #ffdd55;
+  font-family: "Marker Felt", sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Marker Felt", sans-serif;
+  color: #0394be;
+}
+
+.btn-primary {
+    color: #0394be;
+    background-color: #fff;
+    font-family: "Marker Felt", sans-serif;
+  }
+
+div.panel-footer {
+  background-color: #ffdd55;
+}
+.breadcrumb>li+li:before {
+  padding: 0 5px;
+  color: #ffdd55;
+}
+
+.fa-mortar-board:before,.fa-graduation-cap:before {
+  color: #0394be;
+  position: relative;
+  top: 10px;
+}
+element.style {
+  font-family: "Marker Felt", sans-serif;
+}
+div.container h1 {
+  font-family: "Marker Felt", sans-serif;
+  color: #ffdd55;
+  font-size: 70px;
+}
+div.container p {
+  font-size: 35px;
+  color: #0394be;
+}
+.h1-text-center-fa-3x {
+  font-size: 26px;
+  font-family: "Marker Felt", sans-serif;
+  margin: 0 0 20px;
+  font-family: "Marker Felt", sans-serif;
+  color: #ffdd55;
+}
+
+.button {
+    position: relative;
+    left: 290px;
+    top: 0px;
+    height: 45px;
+    width: auto;
+    padding: 5px 15px;
+    color: #0394be;
+    font-size: 15px;
+    background-color: #fff;
+    font-family: "Marker Felt", sans-serif;
+    border: 1px solid #ffdd55;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;

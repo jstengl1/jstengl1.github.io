@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Flippable Flashcards</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/animate.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h3>Click on each card to reveal the answer to the problem.</h3>
+  </header>
+
+  <!-- The div.scene houses the 3D space where the 3D object (div.card) lives. Keeping the 3D space element and the object separate element establishes a paradigm that is simple to understand and easier to style. -->
+  <section class="container">
+    <section class="scene">
+      <!-- The div.card is the 3D object or the thing that will turn-->
+      <div id="problem1" class="card">
+        <!-- The card_face elements are used for the faces of the card. -->
+        <div class="card_face card_face-front">
+          <p>front of the card</p>
+        </div>
+        <div class="card_face card_face-back">
+          <p>back of the card</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene large-card">
+      <div id="problem2" class="card">
+        <!-- The front of the card is where the question goes -->
+        <div class="card_face card_face-front">
+          <p>9-4/4+6=[x]</p>
+        </div>
+        <!-- the back of the card is where the answer goes -->
+        <div class="card_face card_face-back">
+          <p>x=5</p></div>
+      </div>
+    </section>
+
+    <section class="scene">
+      <div id="problem3" class="card">
+        <div class="card_face card_face-front">
+          <p>Question</p>
+        </div>
+        <div class="card_face card_face-back">
+          <p>Answer</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene">
+      <div id="problem4" class="card">
+        <div class="card_face card_face-front">
+          <p>This is the front</p>
+        </div>
+        <div class="card_face card_face-back">
+          <p>This is the back</p>
+        </div>
+      </div>
+    </section>
+  </section>
+
+<!-- The jQuery script that actually controls the interaction -->
+  <script src="assets/animate-on-click.js" charset="utf-8"></script>
+</body>
+
+</html>
