@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+
+}
+h1.name {
+  font-size: 50px;
+  position: relative;
+  top: -45px;
+}
+img  {
+  height: 300px;
+  width: 300px;
+  padding: 30px
+
+}
+header {
+  background-color: #E11584;
+  color: #000;
+  text-align: center;
+}
+#Leadership {
+  background-color: #F699CD;
+  padding: 10px;
+}
+#experience {
+  background-color: #FA86C4;
+  padding: 10px;
+
+}
+h1, h3, h5 {
+  margin-bottom: 10px;
+}
+h5.contact {
+  margin-bottom: 0;
+  font-size: 12px;
+  position: relative;
+  top: -57px;
+
+
+}
+#education p {
+
+
+}
+h1, h3, h5, p, div.ba, div.major, div.minors, div.coursework {
+  font-family:'Poppins', sans-serif;
+}
+h3 {
+  font-family:'Poppins', sans-serif;
+}
+
+#education {
+  background-color: #FD5DA8;
+  padding:10px;
+}
+
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+
+
+}
+@media only screen and (min-width:960px){
+  .section-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
