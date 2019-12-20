@@ -1,0 +1,35 @@
+* {
+  background-color: aliceblue;
+
+}
+.title {
+  font-size: 20px;
+  position: relative;
+  left: 500px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  margin-top: 35px;
+}
+
+.img {
+height: 510px;
+width: 400px;
+border-radius: blue;
+position: relative;
+left: 50px;
+}
+#project-one {
+  font-size: 16px;
+  position: relative;
+  left: 550px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+ #ex3  {
+   font-size: 16px;
+   position: relative;
+   left: 550px;
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+   }
+.inclass {
+  color: black;
+}

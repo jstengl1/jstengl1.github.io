@@ -20,14 +20,19 @@ header {
   background-color: #E11584;
   color: #000;
   text-align: center;
+
 }
 #Leadership {
   background-color: #F699CD;
   padding: 10px;
+  line-height: 20px
+
 }
 #experience {
   background-color: #FA86C4;
   padding: 10px;
+  line-height: 20px
+
 
 }
 h1, h3, h5 {
@@ -55,9 +60,18 @@ h3 {
 #education {
   background-color: #FD5DA8;
   padding:10px;
+  line-height: 20px
 }
 
 @media only screen and (min-width:500px) and (max-width:768px) {
+  header {
+    opacity: 110%;
+    color: #fff;
+  }
+  #education, #experience, #Leadership {
+    padding:20px;
+    color: #fff;
+  }
 
 
 
@@ -67,4 +81,31 @@ h3 {
     width: 50%;
     margin: 0 auto;
   }
+
+  header {
+    background-color: #fff;
+    color: #ff084a;
+  }
+
+  #education {
+    background-color: #fff;
+    padding:20px;
+    color: #fc3468;
+  }
+  #Leadership {
+    background-color: #fff;
+    color: #ff93ac;
+
+  }
+  #experience {
+    background-color: #fff;
+
+    color: #ff6289;
+  }
+  img {
+    border: 5px;
+    border-color: #ff084a;
+
+  }
+
 }
